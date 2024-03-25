@@ -14,10 +14,6 @@ const Body = () => {
 
   const [searchText, setSearchText] = useState("");
 
-  useEffect(() => {
-    fetchData();
-  },[]);
-
   const fetchData = async () => {
     try {
       const data = await fetch(
@@ -36,6 +32,11 @@ const Body = () => {
       console.error("Error fetching data:", error);
     }
   };
+
+  useEffect(() => {
+    fetchData();
+  },[]);
+
 
 const onlineStatus = useOnlineStatus();
 
