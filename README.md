@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#My Food Odering App
+/*
+*Header
+*-logo
+*-Nav Items
+*Body
+*- Search
+*- Restorunt Continer 
+*...-Resto Card
+*-----Img
+*-----Name of Res, Star Rating, Cuisine, deliveiry time  
+*Footer
+*-Copyright
+
+
+
+*/
