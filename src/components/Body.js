@@ -16,7 +16,7 @@ const Body = () => {
 
   useEffect(() => {
     fetchData();
-  });
+  },[]);
 
   const fetchData = async () => {
     try {
